@@ -1,15 +1,32 @@
-.jumbotron {
 
+
+.jumbotron {
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	background-color: #2A0345;
+	border-radius: 20px; 
 }
 
 .panel-heading {
-
+	
 }
 
-.panel {
-	
+.param {
+	font-family: 'Raleway', sans-serif;
+}
+
+.panel-heading {
+	font-weight: bold;
+	background-color: #5D83D2;
+}
+
+.panel-default {
+
 }
 
 .form {
 
+}
+
+.param {
 }
