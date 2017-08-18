@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New York Times | Article Search</title>
+	<meta charset="utf-8">
+<!-- linking bootstrap-->	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- linking jQuery-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- linking jQuery-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<!-- jumbotron-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">New York Times</h1>
+    <p class="lead">Class Assignment Dunder Mifflins</p>
+  </div>
+</div>
+
+<div class="param">
+  <div class="panel-heading"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Search Parameters</div>
+  <div class="panel-body">
+
+	<div class="param">
+	  <label for="searchTerm">Search Term</label>
+	  <input type="text" class="form-control" id="searchTerm">
+	</div>
+	<div class="param">
+	  <label for="sel1">Number of Records to Retrieve:</label>
+	  <select class="form-control" id="sel1">
+	    <option>1</option>
+	    <option>5</option>
+	    <option>10</option>
+	  </select>
+	</div>
+	<div class="param">
+	  <label for="startYear">Start Year</label>
+	  <input type="text" class="form-control" id="startYear">
+	</div>
+	<div class="param">
+	  <label for="endYear">End Year</label>
+	  <input type="text" class="form-control" id="endYear">
+	</div>
+
+	</div>
+	</div>
+
+<!-- top articles div-->
+<div class="panel panel-default">
+  <div class="panel-heading">Top Articles</div>
+  <div class="panel-body"></div>
+</div>
+
+<!-- footer - made by us-->
+<footer>
+<p>
+	&copy; the Dunder Mifflins
+</p>
+</footer>
+
+</body>
+</html>
